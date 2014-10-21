@@ -1,0 +1,26 @@
+
+/*** Validation for Dropdowns start***/
+.msls-presenter-content.msls-validation-error>:not(.msls-validation-error-text) > form {
+    margin-top:0;
+    margin-bottom:0;
+}
+.msls-presenter-content.msls-validation-error>:not(.msls-validation-error-text) > form > div.ui-input-search {
+    border:none;
+}
+.msls-presenter-content.msls-validation-error > .id-auto-complete-dropdown {
+    border:none;
+}
+/*** Validation for Dropdowns end***/
+
+/*** Validation for Datepickers Start***/
+.msls-validation-error > .msls-dateTimePicker-container > fieldset {
+    margin: 0;
+}
+/*** Validation for Datepickers End***/
+
+/*** Required Field Validation start***/
+.requiredField {
+    color:red;
+    /*font-size:14px;*/
+}
+/*** Required Field Validation end***/
